@@ -31,6 +31,6 @@
     </module>
     <module name="Header">
         <property name="header" value="////////////////////////////////////////////////////////////////////\n// Enrico Salmaso 1166175\n////////////////////////////////////////////////////////////////////" />
-        <property name="fileExtension" value="java"/>
+        <property name="fileExtensions" value="java"/>
     </module>
 </module>
