@@ -6,5 +6,31 @@
         <module name="BooleanExpressionComplexity">
             <property name="max" value="7"/>
         </module>
+        <module name="CyclomaticComplexity">
+            <property name="max" value="15"/>
+        </module>
+        <module name="MethodLength"></module>
+        <module name="EmptyCatchBlock">
+            <property name="commentFormat" value="causa:"/>
+            <property name="exceptionVariableName" value="empty"/>
+        </module>
+        <module name="AvoidStarImport"></module>
+        <module name="IllegalImport"></module>
+        <module name="NeedBraces">
+            <property name="allowSingleLineStatement" value="true"/>
+        </module>
+    </module>
+    <module name="FileLength">
+        <property name="max" value="1500"/>
+    </module>
+    <module name="LineLength">
+        <property name="max" value="120"/>
+    </module>
+    <module name="FileTabCharacter">
+        <property name="eachLine" value="true"/>
+    </module>
+    <module name="Header">
+        <property name="header" value="////////////////////////////////////////////////////////////////////\n// Enrico Salmaso 1166175\n////////////////////////////////////////////////////////////////////" />
+        <property name="fileExtension" value="java"/>
     </module>
 </module>
